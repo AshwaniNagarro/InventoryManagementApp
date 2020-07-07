@@ -13,6 +13,10 @@ namespace UserAPI.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private static readonly User[] _users = new User[]
+       {
+            new User{ ID =1 , Age = 30, Email = "ashwani.taneja@nagarro.com",Name="Ashwani" }
+       };
         private readonly AppDbContext _context;
 
         public UsersController(AppDbContext context)
