@@ -67,7 +67,7 @@ namespace UserAPI
 
             app.UseRouting();
 
-            //dbContext.Database.EnsureCreated();
+            dbContext.Database.EnsureCreated();
 
             app.UseAuthorization();
 
