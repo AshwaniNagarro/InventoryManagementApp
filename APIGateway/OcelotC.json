@@ -21,7 +21,7 @@
       "Key": "orders",
       "DownstreamHostAndPorts": [
         {
-          "Host": "10.4.7.234",
+          "Host": "10.4.5.42",
           "Port": "80"
         }
       ]
