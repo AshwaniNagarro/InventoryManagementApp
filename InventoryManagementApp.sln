@@ -9,7 +9,34 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderAPI", "OrderAPI\OrderA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{3F0561A8-890F-421F-A033-16838932DEEE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Related_Documents", "Related_Documents", "{00B920BD-C1CD-4760-A215-37100B2E748C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{896974AB-0FEA-481E-953E-EC9C0D2EF1E9}"
+	ProjectSection(SolutionItems) = preProject
+		Related_Documents\Screenshots\Aggregate Service Url.PNG = Related_Documents\Screenshots\Aggregate Service Url.PNG
+		Related_Documents\Screenshots\Cluster.PNG = Related_Documents\Screenshots\Cluster.PNG
+		Related_Documents\Screenshots\Persistent volume claims.PNG = Related_Documents\Screenshots\Persistent volume claims.PNG
+		Related_Documents\Screenshots\PersistentVolume.PNG = Related_Documents\Screenshots\PersistentVolume.PNG
+		Related_Documents\Screenshots\Pods-created.png = Related_Documents\Screenshots\Pods-created.png
+		Related_Documents\Screenshots\RunningServices.png = Related_Documents\Screenshots\RunningServices.png
+		Related_Documents\Screenshots\sqlserver-secret.PNG = Related_Documents\Screenshots\sqlserver-secret.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{F9E753AE-9A64-4939-AD30-C38278FAD0DC}"
+	ProjectSection(SolutionItems) = preProject
+		Related_Documents\Docs\Deployment Design.docx = Related_Documents\Docs\Deployment Design.docx
+		Related_Documents\Docs\Docker image links.docx = Related_Documents\Docs\Docker image links.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment_Yaml_files", "Deployment_Yaml_files", "{D8F40287-8CB3-4220-9020-D1E3A8C33912}"
+	ProjectSection(SolutionItems) = preProject
+		Related_Documents\Deployment\apigateway-deployment.yaml = Related_Documents\Deployment\apigateway-deployment.yaml
+		Related_Documents\Deployment\apigateway-service.yaml = Related_Documents\Deployment\apigateway-service.yaml
+		Related_Documents\Deployment\orders-api-deployment.yaml = Related_Documents\Deployment\orders-api-deployment.yaml
+		Related_Documents\Deployment\orders-api-service.yaml = Related_Documents\Deployment\orders-api-service.yaml
+		Related_Documents\Deployment\sqlserver-deployment.yaml = Related_Documents\Deployment\sqlserver-deployment.yaml
+		Related_Documents\Deployment\sqlserver-volume.yaml = Related_Documents\Deployment\sqlserver-volume.yaml
+		Related_Documents\Deployment\users-api-deployment.yaml = Related_Documents\Deployment\users-api-deployment.yaml
+		Related_Documents\Deployment\users-api-service.yaml = Related_Documents\Deployment\users-api-service.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
